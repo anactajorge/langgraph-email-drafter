@@ -1,0 +1,17 @@
+# Ignore everything in the root
+/*
+
+# Whitelist .gitignore so it remains tracked
+!.gitignore
+
+# Whitelist the my_drafter folder and all its contents
+!/my_drafter/
+!/my_drafter/**
+!README.md
+
+# Ensure sensitive and temp files are never included even inside Project
+.env
+*.env
+*.db
+*.db-*
+__pycache__/
