@@ -12,4 +12,15 @@ Things to add:
 
 Things i learned:
 - Proper use and naming of nodes and initializing of names and edges
-- Implementing counters to prevent infinite loops and errors
+- Implementing counters to prevent infinite loops and 
+
+September 19, 2026 
+
+Finalized Improving Email Graph
+Lessons Learned:
+- Proper use and naming of nodes and initializing of names and edges.
+- Implementing counters to prevent API usage and Loops.
+- Connecting to a local database SQlite.
+- Savings Snapshots of the Graph via Checkpointers and SQlite.
+- Accessing those Snapshots and validating ThreadID (configurables LangGraph).
+- To add comments to make the logic easy to navigate and understand.
